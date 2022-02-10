@@ -1,13 +1,14 @@
 import React from 'react';
+import {share} from '../Icon';
 import Header from '../header';
 
 const About = () => {
   return (
     <React.Fragment>
       <Header/>
-      <div>About </div>
+      <div>About {share}</div>
    </React.Fragment>
   );
 }
 
-export default About;
+export default About; 
